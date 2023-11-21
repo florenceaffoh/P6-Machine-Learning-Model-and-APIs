@@ -39,6 +39,19 @@ Your work should follow these next steps.
 
 2.  Build an API using Fast API, during the remaining weeks, to embed the ML model built.
 
+3.  About this file
+ID: number to represent patient ID
+PRG: Plasma glucose
+PL: Blood Work Result-1 (mu U/ml)
+PR: Blood Pressure (mm Hg)
+SK: Blood Work Result-2 (mm)
+TS: Blood Work Result-3 (mu U/ml)
+M11: Body mass index (weight in kg/(height in m)^2
+BD2: Blood Work Result-4 (mu U/ml)
+Age: patients age (years)
+Insurance: If a patient holds a valid insurance card
+Sepsis: Positive: if a patient in ICU will develop a sepsis , and Negative: otherwis
+
 
 Upon completion of your project, you are required to write a blog post
 on your thought process on medium, LinkedIn, personal blog, or any other
