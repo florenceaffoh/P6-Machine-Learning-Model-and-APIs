@@ -21,11 +21,6 @@ class SepsisInput(BaseModel):
     Blood_work_results4: float
     Age: int
 
-## Status endpoint : check if the api is online
-@app.get("/status")
-async def status():
-    return {"message": "online"}
-
 # Define the root endpoint
 @app.get("/") 
 async def root():
